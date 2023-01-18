@@ -1,0 +1,17 @@
+<header class="header">
+	<nav class="nav">
+		<div class="logo">
+			{{- $label_text := (.Site.Author | default .Site.Title) }}
+			{{- if .Site.Title }}
+			<a href="{{ "" | absLangURL }}" accesskey="h" title="{{ $label_text }} (Alt + H)">
+				{{- if .Site.Params.label.icon }}
+				<img src="{{- .Site.Params.label.icon | absURL -}}" alt="logo" aria-label="logo"
+						 height="{{- .Site.Params.label.iconHeight | default "30" -}}">
+				{{- end -}}
+				{{- $label_text -}}
+			</a>
+			{{- end }}
+		</div>
+	</nav>
+
+</header>

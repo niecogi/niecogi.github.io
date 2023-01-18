@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+h1 {
+  display: none;
+}
+h2 {
+  display: block;
+  font-size: 1.5em;
+  margin-top: 0.83em;
+  margin-bottom: 0.83em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+h3 {
+  display: block;
+  font-size: 1.17em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+h4 {
+  display: block;
+  font-size: 1em;
+  margin-top: 1.33em;
+  margin-bottom: 1.33em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+
+a:link {
+  color: #111111
+}
+
+a:visited {
+  color: #111111
+}
+
+body {
+  background-color: white;
+  font-family: Arial;
+}
+
+section {
+  margin: 20px 20px 20px 20px;
+}
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: #bf5f82;
+  color: white;
+}
+
+nav{
+  display: flex;
+  justify-content: end;
+}
+
+p {
+  margin: 20px 20px 25px 20px;
+}
+
+img {
+  display: block;
+  width: 40%;
+  margin: 20px 20px 20px 20px;
+}
+
+#description {
+  display: flex;
+  justify-content: center;
+}
+
+nav>ol{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+ol>li {
+  float: left;
+}
+
+ol>li a{
+  display: block;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+ol>li>a:hover {
+  color: #5E63B6;
+}
+
+ul {
+  list-style-type: circle;
+}
+ul>li{
+  margin: 0 0 3px 0;
+}
+
+
+
+address>ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #5E63B6;
+}
+
+address>ul>li {
+  float: left;
+}
+
+address>ul>li a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+address>ul>li a:hover {
+  background: #bf5f82;
+}
