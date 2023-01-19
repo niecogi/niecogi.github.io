@@ -1,4 +1,31 @@
 baseURL = 'http://example.org'
 languageCode = 'es'
-title = 'Nieves Homepage'
 author= 'Nieves Codes'
+title = 'Nieves Homepage'
+
+theme = 'nieves-template'
+title =  'Nieve'
+
+[menu]
+
+[[menu.main]]
+identifier = "about"
+name = "About"
+url = "/about/"
+weight = 10
+[[menu.main]]
+identifier = "contact"
+name = "Contact"
+url = "/contact/"
+weight = 10
+
+
+[params]
+  #Personal info
+  bio = "Hello, I'm Nieves Junior Software Engineer"
+  #Social media
+  twitter = 'nievescodes'
+  github = 'niecogi'
+  instagram= 'nievescodes'
+
+

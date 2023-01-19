@@ -56,6 +56,7 @@ footer {
 nav{
   display: flex;
   justify-content: end;
+  background-color: #b45ea4;
 }
 
 p {
