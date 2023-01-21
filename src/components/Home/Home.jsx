@@ -1,6 +1,7 @@
 import React, {Fragment} from "react"
 import './Home.css'
 import SocialLinks from "../SocialLinks"
+import ImageStatus from "../ImageStatus/ImageStatus"
 
 export default function Home({title, subtitle, photo, description}) {
   return <div className='header'>
@@ -13,9 +14,9 @@ export default function Home({title, subtitle, photo, description}) {
         linkedin='https://www.linkedin.com/in/nieves-codoner-gil/'
         twitter='https://twitter.com/NievesCodes'/>
     </div>
-    <img
+    <ImageStatus
       className='photo'
-      src={photo}/>
-
+      photo={photo}
+    />
   </div>
 }
