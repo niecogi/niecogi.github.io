@@ -1,0 +1,21 @@
+.header {
+	padding: var(--space-xl) 0;
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	gap: var(--space-m);
+	place-items: center;
+	border-bottom: 1px solid var(--theme-on-background--light);
+}
+
+.text{
+	order:2;
+}
+
+.photo{
+	order: 1;
+	width: 200px;
+	height: 200px;
+	max-width: 200px;
+	border-radius: 50%;
+	object-fit: cover;
+}

@@ -1,0 +1,50 @@
+nav {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	max-width: calc(1024px + 24px * 2);
+	margin-inline-start: auto;
+	margin-inline-end: auto;
+}
+
+nav>ol{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+ol>li {
+	float: left;
+}
+
+ol>li a{
+	display: block;
+	text-align: center;
+	padding: 16px;
+	text-decoration: none;
+}
+
+ol>li>a:hover {
+	color: #5E63B6;
+}
+
+ul {
+	list-style-type: circle;
+}
+ul>li{
+	margin: 0 0 3px 0;
+}
+
+.name{
+	display: inline-flex;
+	padding: .5em;
+}
+
+.title {
+	float:left;
+}
+
+.heart{
+	float:right;
+}
