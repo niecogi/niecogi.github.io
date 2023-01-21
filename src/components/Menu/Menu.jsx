@@ -6,7 +6,8 @@ export default function Menu({title, icon}) {
   return <nav>
     <div className='name'>
       <h2 className='title'>{title}</h2>
-      <FiHeart className='heart-icon' /> </div>
+      <FiHeart className='heart-icon' />
+    </div>
 
 
     <ol>

@@ -1,0 +1,28 @@
+:root {
+	font-family: -apple-system,BlinkMacSystemFont,segoe ui,Roboto,Oxygen,Ubuntu,Cantarell,open sans,helvetica neue,sans-serif;
+}
+
+h1 {
+	display: block;
+	font-size: 2em;
+	margin: 0.67em 0;
+	font-weight: bold;
+}
+h2 {
+	display: block;
+	font-size: 1.5em;
+	margin: 0.83em 0;
+	font-weight: bold;
+}
+h3 {
+	display: block;
+	font-size: 1.17em;
+	margin: 1em 0;
+	font-weight: bold;
+}
+h4 {
+	display: block;
+	font-size: 1em;
+	margin: 1.33em 0;
+	font-weight: bold;
+}

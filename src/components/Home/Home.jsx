@@ -8,7 +8,7 @@ export default function Home({title, subtitle, photo, description}) {
     <div className='text'>
       <h1>{title}</h1>
       <p className='subtitle'>{subtitle}</p>
-      <p>{description}</p>
+      <p className='description'>{description}</p>
       <SocialLinks
         github='https://github.com/niecogi'
         linkedin='https://www.linkedin.com/in/nieves-codoner-gil/'
