@@ -1,8 +1,9 @@
 .user-badge-status {
-	background-color: #0d1117;
+	background-color: #ffffff;
 	border: 1px solid #ffffff;
 	border-radius: 2em;
-	box-shadow: #0d1117;
+	box-shadow: #ffffff;
+	order: 2;
 }
 
 .user-status-circle-badge-container {

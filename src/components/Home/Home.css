@@ -9,8 +9,13 @@
 
 .text{
 	order:2;
+	max-width: 900px;
 }
 
+.subtitle {
+	font-style: italic;
+
+}
 .photo{
 	order: 1;
 	width: 200px;

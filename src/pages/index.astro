@@ -2,6 +2,7 @@
 import Card from '../components/Card'
 import Home from '../components/Home'
 import Menu from '../components/Menu'
+import Projects from '../components/Projects'
 ---
 
 <html lang="en" >
@@ -74,20 +75,14 @@ import Menu from '../components/Menu'
     <h1>Astro</h1>
     <Menu
     icon="true"
-    title="nievescodes"
+    title="nieves.codes"
     />
     <Home
-      title="Nieves Codoñer"
+      title="Nieves Codoñer Gil"
       photo= "../static/images/profile.jpeg"
       subtitle="Junior Software Engineer"
       description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ac arcu tempor, fermentum lectus sed, egestas lorem. Suspendisse id purus eu arcu interdum ullamcorper eu id leo. Nunc finibus felis sit amet ipsum laoreet venenatis. Vivamus sollicitudin, ipsum vitae laoreet pretium, odio eros fringilla nunc, vel condimentum enim erat sed lectus. Praesent ornare, leo sed viverra blandit, ligula nisi rutrum diam, a accumsan velit mauris sed purus. Curabitur venenatis sagittis iaculis. Curabitur tristique ut nibh eu ullamcorper. Sed finibus suscipit ipsum, sed fringilla erat lacinia quis. Cras posuere dapibus lacinia. Sed sapien magna, bibendum sed velit sit amet, viverra cursus ipsum. Donec vitae accumsan ex, sed pulvinar quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Phasellus lobortis, risus a eleifend aliquam, quam diam consectetur tortor, quis ornare arcu sapien vitae augue. Curabitur dapibus lobortis massa vel accumsan. Vivamus facilisis, ligula non vulputate faucibus, quam ex posuere mi, a vulputate nunc ligula nec risus."
     />
-    <Card
-      client:load
-      href="https://docs.astro.build/"
-      title="Documentation"
-      body="Learn how Astro works and explore the official API docs."
-    />
-
+    <Projects />
   </body>
 </html>

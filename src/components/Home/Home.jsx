@@ -7,7 +7,7 @@ export default function Home({title, subtitle, photo, description}) {
   return <div className='header'>
     <div className='text'>
       <h1>{title}</h1>
-      <p>{subtitle}</p>
+      <p className='subtitle'>{subtitle}</p>
       <p>{description}</p>
       <SocialLinks
         github='https://github.com/niecogi'
