@@ -9,7 +9,6 @@ export default function Menu({title, icon}) {
       <FiHeart className='heart-icon' />
     </div>
 
-
     <ol>
       <li><a href="#aboutme"><i className="uil uil-user"></i>About me</a></li>
       <li><a href="#projects"><i className="uil uil-scenery"></i>Projects</a></li>

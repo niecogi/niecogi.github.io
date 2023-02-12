@@ -1,5 +1,16 @@
 .social-icons {
-	display: block;
-	padding: 10px;
-	margin: 50px;
+	display: inline-block;
+	flex-wrap: nowrap;
+
 }
+.social-icons svg{
+	color: #28363d;
+}
+
+.social-icons svg:hover{
+	color: #da62c4;
+}
+
+
+
+
