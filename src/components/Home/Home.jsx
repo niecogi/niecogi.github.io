@@ -3,12 +3,12 @@ import './Home.css'
 import SocialLinks from "../SocialLinks"
 import ImageStatus from "../ImageStatus/ImageStatus"
 
-export default function Home({title, subtitle, photo, description}) {
+export default function Home({title, subtitle, photo, bio}) {
   return <div className='header'>
     <div className='text'>
       <h1>{title}</h1>
       <p className='subtitle'>{subtitle}</p>
-      <p className='description'>{description}</p>
+      <p className='description'>{bio}</p>
       <SocialLinks
         github='https://github.com/niecogi'
         linkedin='https://www.linkedin.com/in/nieves-codoner-gil/'
@@ -17,6 +17,7 @@ export default function Home({title, subtitle, photo, description}) {
     <ImageStatus
       className='photo'
       photo={photo}
+      status = {'💻'}
     />
   </div>
 }
