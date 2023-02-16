@@ -1,8 +1,15 @@
 .projects-wrapper {
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(min(100%,22rem),1fr));
-	gap: 1rem;
+	grid-template-columns: repeat(auto-fill, minmax(min(100%,22rem),1fr));
+	gap: 4rem;
 	grid-auto-flow: dense;
 	grid-auto-rows: 20rem;
 	margin:1em;
+}
+
+.project-wrapper {
+	place-items: center;
+	max-width: 800px;
+	margin: 20px auto;
+	padding: 0 10px;
 }

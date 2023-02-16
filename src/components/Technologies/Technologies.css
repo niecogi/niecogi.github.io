@@ -1,0 +1,65 @@
+.tech-wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  margin: 1rem;
+}
+
+.tech-wrapper span {
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border: 1px solid rgba(27,31,36,0.1);
+  border-radius: 50%;
+}
+
+.tech {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  gap: 0.2rem;
+}
+
+
+/* TECHNOLOGIES*/
+
+.Javascript,
+.JS,
+.JavaScript {
+  background-color: #f1e05a;
+}
+
+.React,
+.ReactJS {
+  background-color: #61DBFB;
+}
+
+.MaterialUI,
+.MaterialUI {
+  background-color:#007FFF;
+}
+
+.HTML {
+  background-color: #e34c26;
+
+}
+
+.CSS {
+  background-color: #563d7c;
+}
+
+.C {
+  background-color: #555555;
+}
+
+.Emscripten {
+  background-color: rgb(217, 240, 180);
+}
+
+.AntDesign {
+  background-color: linear-gradient(90deg, rgba(16,142,233,1) 0%, rgba(240,65,52,1) 100%, rgba(248,0,255,1) 100%)
+}
+
+

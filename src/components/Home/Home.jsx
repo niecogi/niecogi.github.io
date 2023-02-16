@@ -4,7 +4,7 @@ import SocialLinks from "../SocialLinks"
 import ImageStatus from "../ImageStatus/ImageStatus"
 
 export default function Home({title, subtitle, photo, bio}) {
-  return <div className='header'>
+  return <div className='home'>
     <div className='text'>
       <h1>{title}</h1>
       <p className='subtitle'>{subtitle}</p>

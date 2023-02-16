@@ -21,21 +21,27 @@ export const SOCIAL = [
 export const PROJECTS = [
   {
     title: 'WebSpim',
-    href: 'https://github.com/niecogi/webspim',
+    href: '',
+    hrefGit:'https://github.com/niecogi/webspim',
     description: 'The aim of this work is to adapt the console spim simulator by compiling it to JavaScript using Emscripten technology, in order to embed the simulator in the web interface.',
-    photo: 'https://opengraph.githubassets.com/1/niecogi/webspim'
+    photo: 'https://opengraph.githubassets.com/1/niecogi/webspim',
+    technologies: ['Emscripten', 'JS','React', 'MaterialUI']
   },
   {
     title: 'ColorSwapperTwitch',
-    href: 'https://github.com/niecogi/ColorSwapperTwitch',
+    href: '',
+    hrefGit:'https://github.com/niecogi/ColorSwapperTwitch',
     description: 'Replace Twich\'s purple with a color of your own liking.',
-    photo: 'https://opengraph.githubassets.com/1/niecogi/ColorSwapperTwitch'
+    photo: 'https://opengraph.githubassets.com/1/niecogi/ColorSwapperTwitch',
+    technologies: ['HTML', 'CSS','JS']
   },
   {
     title: 'Pokedex',
-    href: 'https://github.com/niecogi/pokemon',
+    href: '',
+    hrefGit:'https://github.com/niecogi/pokemon',
     description: 'Replace Twich\'s purple with a color of your own liking.',
-    photo: 'https://opengraph.githubassets.com/1/niecogi/pokemon'
+    photo: 'https://opengraph.githubassets.com/1/niecogi/pokemon',
+    technologies: ['CSS','JS','React']
   }
 ]
 
