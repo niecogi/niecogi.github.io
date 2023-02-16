@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: row;
   gap: 1rem;
-  margin: 1rem;
+  margin-top: 2rem;
 }
 
 .tech-wrapper span {
@@ -23,42 +23,44 @@
 }
 
 
+
 /* TECHNOLOGIES*/
 
-.Javascript,
-.JS,
-.JavaScript {
-  background-color: #f1e05a;
-}
-
-.React,
-.ReactJS {
-  background-color: #61DBFB;
-}
-
-.MaterialUI,
-.MaterialUI {
-  background-color:#007FFF;
-}
-
-.HTML {
-  background-color: #e34c26;
+#Javascript,
+#JS,
+#JavaScript {
+  background-color: rgba(241, 224, 90, var(--opacity));
 
 }
 
-.CSS {
-  background-color: #563d7c;
+#React,
+#ReactJS {
+  background-color: rgba(97, 219, 251, var(--opacity));
 }
 
-.C {
-  background-color: #555555;
+#MaterialUI,
+#MaterialUI {
+  background-color:rgba(0, 127, 255, var(--opacity));
 }
 
-.Emscripten {
-  background-color: rgb(217, 240, 180);
+#HTML {
+  background-color: rgba(227, 76, 38, var(--opacity));
+
 }
 
-.AntDesign {
+#CSS {
+  background-color: rgba(86, 61, 124, var(--opacity));
+}
+
+#C {
+  background-color: rgba(85, 85, 85, var(--opacity));
+}
+
+#Emscripten {
+  background-color: rgba(217, 240, 180, var(--opacity));
+}
+
+#AntDesign {
   background-color: linear-gradient(90deg, rgba(16,142,233,1) 0%, rgba(240,65,52,1) 100%, rgba(248,0,255,1) 100%)
 }
 

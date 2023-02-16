@@ -3,7 +3,7 @@ import './Pill.css'
 
 export default function Pill({ name }) {
     return (
-        <button class='btn-pill'>
+        <button className={'btn-pill'} id={name}>
             {name}
         </button>
     )

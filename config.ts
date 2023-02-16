@@ -21,7 +21,7 @@ export const SOCIAL = [
 export const PROJECTS = [
   {
     title: 'WebSpim',
-    href: '',
+    href: 'http://spim.webs.upv.es/',
     hrefGit:'https://github.com/niecogi/webspim',
     description: 'The aim of this work is to adapt the console spim simulator by compiling it to JavaScript using Emscripten technology, in order to embed the simulator in the web interface.',
     photo: 'https://opengraph.githubassets.com/1/niecogi/webspim',
@@ -29,7 +29,7 @@ export const PROJECTS = [
   },
   {
     title: 'ColorSwapperTwitch',
-    href: '',
+    href: 'https://github.com/niecogi/ColorSwapperTwitch',
     hrefGit:'https://github.com/niecogi/ColorSwapperTwitch',
     description: 'Replace Twich\'s purple with a color of your own liking.',
     photo: 'https://opengraph.githubassets.com/1/niecogi/ColorSwapperTwitch',
@@ -37,9 +37,9 @@ export const PROJECTS = [
   },
   {
     title: 'Pokedex',
-    href: '',
+    href: 'https://pokedex.nieves.codes/',
     hrefGit:'https://github.com/niecogi/pokemon',
-    description: 'Replace Twich\'s purple with a color of your own liking.',
+    description: 'The project starts from the idea of creating a web page to consult the Pokémon and in this way learn and practice different skills',
     photo: 'https://opengraph.githubassets.com/1/niecogi/pokemon',
     technologies: ['CSS','JS','React']
   }
