@@ -1,4 +1,3 @@
-import React, {Fragment} from "react"
 import photo from '../../../static/images/profile.jpeg'
 
 import './ImageStatus.css'

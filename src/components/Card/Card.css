@@ -1,4 +1,3 @@
-
 .card-wrapper {
 	list-style: none;
 	background-color: white;
@@ -9,6 +8,12 @@
 	border-width: 1px;
 	border-color: #d0d7de;
 	position: relative;
+	background: rgba(255, 255, 255, 0.2);
+	border-radius: 16px;
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+	backdrop-filter: blur(5px);
+	-webkit-backdrop-filter: blur(5px);
+	border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 .card-wrapper {
@@ -22,6 +27,13 @@
 	opacity: 0.8;
 }
 
+/*
+.card-wrapper:hover {
+	transform: scale(0.95);
+	transition: all 0.3s;
+}
+*/
+
 .card-header {
 	display: flex;
 	flex-direction: row;
@@ -33,4 +45,8 @@
 	position: absolute;
 	bottom: 0;
 	margin-bottom: 25px;
+}
+
+.projects-links {
+	gap:1rem;
 }

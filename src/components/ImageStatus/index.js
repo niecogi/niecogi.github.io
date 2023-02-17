@@ -1,1 +1,1 @@
-import { default } from './ImageStatus.jsx'
+export { default } from './ImageStatus.jsx'

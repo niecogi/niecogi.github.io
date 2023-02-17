@@ -30,26 +30,32 @@
 #JS,
 #JavaScript {
   background-color: rgba(241, 224, 90, var(--opacity));
+  color: var(--color-text-button-light)
 
 }
 
 #React,
 #ReactJS {
   background-color: rgba(97, 219, 251, var(--opacity));
+  color: var(--color-text-button-light)
 }
 
 #MaterialUI,
-#MaterialUI {
+#MaterialUI,
+#MUI {
   background-color:rgba(0, 127, 255, var(--opacity));
+  color: var(--color-text-button-dark)
 }
 
 #HTML {
   background-color: rgba(227, 76, 38, var(--opacity));
+  color: var(--color-text-button-dark)
 
 }
 
 #CSS {
   background-color: rgba(86, 61, 124, var(--opacity));
+  color: var(--color-text-button-dark)
 }
 
 #C {

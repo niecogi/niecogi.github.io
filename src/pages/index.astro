@@ -1,7 +1,7 @@
 ---
-import { Home, Projects, Pills } from '../components'
+import { Home, Projects, Contact} from '../components'
 import MySiteLayout from '../layouts/MySiteLayout.astro'
-import { SITE, INFO, PROJECTS, TECH } from '../../config'
+import { SITE, INFO, PROJECTS } from '../../config'
 ---
 
 <html lang="en" >
@@ -21,9 +21,11 @@ import { SITE, INFO, PROJECTS, TECH } from '../../config'
       <Home
       title={SITE.author}
       photo= {INFO.photo}
-      subtitle={INFO.position}
+      position= {INFO.position}
+      location= {INFO.location}
       bio = {INFO.bio} />
       <Projects projects={PROJECTS} />
+      <Contact />
     </MySiteLayout>
 
   </body>

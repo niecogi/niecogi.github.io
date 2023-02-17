@@ -21,6 +21,8 @@
 
 .subtitle {
 	font-style: italic;
+	display: flex;
+	gap: 0.5rem;
 }
 
 .description {
