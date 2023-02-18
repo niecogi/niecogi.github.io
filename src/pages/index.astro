@@ -1,32 +1,35 @@
 ---
-import { Home, Projects, Contact} from '../components'
-import MySiteLayout from '../layouts/MySiteLayout.astro'
-import { SITE, INFO, PROJECTS } from '../../config'
+import { About, Projects, Contact, SocialLinks, Home } from "../components"
+import MySiteLayout from "../layouts/MySiteLayout.astro"
+import { SITE, INFO, PROJECTS, SOCIAL } from "../../config"
 ---
 
-<html lang="en" >
+<html lang="en">
   <head>
-    <meta charset="utf-8"/>
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg"/>
-    <meta name="viewport" content="width=device-width"/>
-    <meta name="generator" content={Astro.generator}/>
-    <link rel="stylesheet" href="../../static/styles/reset.css">
-    <link rel="stylesheet" href="../../static/styles/styles.css">
-    <link rel="stylesheet" href="../../static/styles/theme-vars.css">
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <link rel="stylesheet" href="../../static/styles/reset.css" />
+    <link rel="stylesheet" href="../../static/styles/styles.css" />
+    <link rel="stylesheet" href="../../static/styles/theme-vars.css" />
     <title>{SITE.title}</title>
   </head>
 
   <body>
     <MySiteLayout>
-      <Home
-      title={SITE.author}
-      photo= {INFO.photo}
-      position= {INFO.position}
-      location= {INFO.location}
-      bio = {INFO.bio} />
+      <Home />
+      <About
+        title={SITE.author}
+        photo={INFO.photo}
+        position={INFO.position}
+        location={INFO.location}
+        bio={INFO.bio}
+      />
       <Projects projects={PROJECTS} />
       <Contact />
+      <SocialLinks socials={SOCIAL} />
     </MySiteLayout>
-
   </body>
+
 </html>

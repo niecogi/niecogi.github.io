@@ -1,30 +1,27 @@
-import './Home.css'
-import SocialLinks from "../SocialLinks"
-import ImageStatus from "../ImageStatus/ImageStatus"
-import { IoLocationSharp } from "react-icons/io5";
-
-
-export default function Home({ title, position, photo, bio, location }) {
-  return <div className='home'>
-    <div className='text'>
-      <h1>{title}</h1>
-      <div className='subtitle'>
-        <p className='subtitle-job'>{position}</p>
-        <p className='subtitle-location'>
-          <IoLocationSharp /> {location}
-        </p>
-    
+import "./Home.css"
+import SocialLinks from '../SocialLinks'
+import {  SOCIAL } from "../../../config"
+export default function Home() {
+ 
+  return (
+    <section className="home-wrapper">
+      <h1 className="home-title">
+        {" "}
+        I'm <span className="home-position">Nieves</span>
+      </h1>
+      <p className="home-hello">Hello</p>
+      <p className="home-paraph">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt
+        diam massa, at varius est congue et. Mauris ut leo eu urna tristique
+        vestibulum. Maecenas eu rutrum tellus. Vestibulum sem purus, porta
+        facilisis magna ac, fermentum dictum nulla. Vivamus eleifend risus at
+        dui convallis bibendum. Curabitur id consectetur turpis. Etiam velit
+        ante, feugiat vehicula accumsan eu, cursus at ipsum. Nunc ultrices felis
+        id ante condimentum scelerisque.
+      </p>
+      <div className="home-social">
+      <SocialLinks socials={SOCIAL} size={'2em'}/>
       </div>
-      <p className='description'>{bio}</p>
-      <SocialLinks
-        github='https://github.com/niecogi'
-        linkedin='https://www.linkedin.com/in/nieves-codoner-gil/'
-        twitter='https://twitter.com/NievesCodes' />
-    </div>
-    <ImageStatus
-      className='photo'
-      photo={photo}
-      status={'💻'}
-    />
-  </div>
+    </section>
+  )
 }

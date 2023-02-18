@@ -4,15 +4,16 @@
 
 h1 {
 	display: block;
-	font-size: 2em;
+	font-size: 7em;
 	margin: 0.67em 0;
-	font-weight: bold;
+	font-weight: 900;
 }
 h2 {
 	display: block;
 	font-size: 1.5em;
 	margin: 0.83em 0;
 	font-weight: bold;
+	color: var(--color-headline)
 }
 h3 {
 	display: block;
@@ -34,4 +35,17 @@ body {
 	padding: 0 10px;
 	word-wrap: break-word;
 	text-rendering: optimizeLegibility;
+	background-color: var(--color-background);
+	color: var(--color-headline)
+  }
+
+  a {
+	color:var(--color-icon-highlight);
+	
+  }
+
+  p {
+	color:var(--color-paragraph);
+	font-size: 20px;
+	
   }

@@ -25,6 +25,7 @@
 	padding: 1rem 1.3rem;
 	color: #111;
 	opacity: 0.8;
+
 }
 
 /*
@@ -44,6 +45,7 @@
 .card-footer {
 	position: absolute;
 	bottom: 0;
+	margin-top: 25px;
 	margin-bottom: 25px;
 }
 

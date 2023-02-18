@@ -1,23 +1,19 @@
 ---
-import {Footer, Header, Menu} from '../components/';
-import { SITE } from '../../config'
-const { title } = Astro.props
+import { Footer, Menu } from "../components/"
+
 ---
+
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-			</head>
-	<body>
-		<Menu
-		icon="true"
-		title={SITE.title}
-		/>
-		<article>
-			<slot /> <!-- your content is injected here -->
-		</article>
-		<Footer
-		name='niecogi'
-		url='https://github.com/niecogi'/>
-	</body>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <body>
+    <Menu icon={true} />
+    <article>
+      <slot />
+      <!-- your content is injected here -->
+    </article>
+    <Footer name="niecogi" url="https://github.com/niecogi" />
+  </body>
 </html>
