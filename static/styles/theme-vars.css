@@ -1,11 +1,13 @@
 :root {
   --opacity: 1;
   --border: #dbdbdb;
+  --bold-weight-heavier: 700;
+  --bold-weight-normal: 400;
 }
 
 :root {
   --color-text-button-light: #000;
-  --color-text-button-dark: #e1e1e1;
+  --color-text-button-dark: hsl(0, 0%, 100%, 0.9);
 }
 
 :root {
@@ -13,12 +15,17 @@
   --color-headline: #fffffe;
   --color-paragraph: #b8c1ec;
   --color-button: #eebbc3;
+  --color-button-hover: #b8c1ec;
   --color-button-text: #232946;
 
   --color-card-background: #fffffe;
   --color-card-heading: #232946;
   --color-card-paragraph: #232946;
+  --color-card-icon-stroke:#121629;
+  --color-card-icon-highlight: #b8c1ec;
 
   --color-icon-stroke: #121629;
   --color-icon-highlight: #eebbc3;
+
+
 }

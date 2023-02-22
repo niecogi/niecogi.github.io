@@ -1,6 +1,6 @@
 export const SITE = {
-  author: "Nieves Codes",
-  desc: "My name is Nieves",
+  author: "Nieves",
+  desc: "UPV alumni with Degree and Master's in Computer Engineering. I consider myself to be hard working, willing to adapt and in general with a great passion for learning and keep improving as a Software Developer.",
   title: "Portfolio NievesCodes"
 }
 

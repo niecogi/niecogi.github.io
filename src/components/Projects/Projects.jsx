@@ -2,7 +2,7 @@ import Card from "../Card"
 import './Projects.css'
 
 export default function Projects({ projects }) {
-  return (<div className='project-wrapper' id={'projects'}>
+  return (<section className='project-wrapper' id={'projects'}>
     <h2>Projects</h2>
     <ul className='projects-wrapper'>
       {
@@ -18,6 +18,6 @@ export default function Projects({ projects }) {
       }
     </ul>
 
-  </div>
+  </section>
   )
 }

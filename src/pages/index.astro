@@ -18,7 +18,7 @@ import { SITE, INFO, PROJECTS, SOCIAL } from "../../config"
 
   <body>
     <MySiteLayout>
-      <Home />
+      <Home name={SITE.author} description={SITE.desc} position={INFO.position} />
       <About
         title={SITE.author}
         photo={INFO.photo}
@@ -28,8 +28,7 @@ import { SITE, INFO, PROJECTS, SOCIAL } from "../../config"
       />
       <Projects projects={PROJECTS} />
       <Contact />
-      <SocialLinks socials={SOCIAL} />
+      <SocialLinks socials={SOCIAL} size="2em" />
     </MySiteLayout>
   </body>
-
 </html>

@@ -1,6 +1,5 @@
 ---
 import { Footer, Menu } from "../components/"
-
 ---
 
 <html lang="en">
@@ -10,10 +9,7 @@ import { Footer, Menu } from "../components/"
   </head>
   <body>
     <Menu icon={true} />
-    <article>
-      <slot />
-      <!-- your content is injected here -->
-    </article>
+    <slot />
     <Footer name="niecogi" url="https://github.com/niecogi" />
   </body>
 </html>

@@ -4,9 +4,6 @@
 	grid-template-columns: 1fr 2fr;
 	gap: var(--space-m);
 	place-items: center;
-	max-width: 1000px;
-	margin: 20px auto;
-	padding: 0 10px;
 }
 
 .text{
