@@ -4,19 +4,19 @@
 
 h1 {
 	display: block;
-	font-size: 7em;
+	font-size: 6em;
 	font-weight: 900;
 }
 h2 {
 	display: block;
-	font-size: 1.5em;
+	font-size: 3em;
 	margin: 0.83em 0;
-	font-weight: bold;
-	color: var(--color-headline)
+	color: var(--color-headline);
+	font-weight: var(--bold-weight-heavier);
 }
 h3 {
 	display: block;
-	font-size: 1.17em;
+	font-size: 2em;
 	margin: 1em 0;
 	font-weight: bold;
 }
@@ -37,6 +37,8 @@ body {
 	background-color: var(--color-background);
 	color: var(--color-headline);
 	max-width: 1200px;
+
+
 
   }
 

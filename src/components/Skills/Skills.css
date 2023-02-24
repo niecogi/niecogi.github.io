@@ -1,8 +1,34 @@
-.pills {
-  display: flex;
-  gap: 2rem;
-  align-items: center;
+.skills {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 10rem), 1fr));
+  gap: 1rem;
+  grid-auto-flow: dense;
+  grid-auto-rows: 5rem;
   margin: 1rem;
-  justify-content: center;
   list-style: none;
+}
+
+.skill-wrapper:hover {
+  transform: scale(1.1);
+  transition: all 0.3s;
+}
+
+.skill-wrapper:hover svg {
+  color: var(--color-icon-highlight);
+  transition: color 0.25s;
+}
+
+.skill-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.8rem;
+  border-radius: var(--border-radius);
+  background-color: var(--color-card-background);
+  color: var(--color-icon-stroke);
+}
+
+
+.skill-wrapper figcaption {
+  color: var(--color-card-heading);
 }

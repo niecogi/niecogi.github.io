@@ -6,12 +6,12 @@ export default function Home({ name, position, description }) {
   return (
     <section className="home-wrapper" id="home">
       <h1 className="home-title">
-        I'm <span className="home-name">{name}</span>
+        I'm <span className="name">{name}</span>
       </h1>
-      <p className="home-hello">Hello,</p>
-      <p className="home-paraph">{description}</p>
-      <p className="home-position"> <FiTerminal /> {position}</p>
-      <div className="home-social">
+      <p className="hello">Hello,</p>
+      <p className="paraph">{description}</p>
+      <p className="position"> <FiTerminal /> {position}</p>
+      <div className="social">
         <SocialLinks socials={SOCIAL} size={"2em"} />
       </div>
     </section>

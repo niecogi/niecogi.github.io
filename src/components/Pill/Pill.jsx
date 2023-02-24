@@ -32,7 +32,7 @@ const technologies = {
 
 export default function Pill({ name }) {
   return (
-    <button className={"btn-pill"} id={name}>
+    <button className={"btn-pill"} >
       {technologies[name]}
       {` ${name}`}
     </button>

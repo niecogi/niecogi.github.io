@@ -8,7 +8,8 @@ export const INFO = {
   photo: "../static/images/profile.jpeg",
   position: "Junior Software Engineer",
   location: "Valencia, Spain",
-  bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt diam massa, at varius est congue et. Mauris ut leo eu urna tristique vestibulum. Maecenas eu rutrum tellus. Vestibulum sem purus, porta facilisis magna ac, fermentum dictum nulla. Vivamus eleifend risus at dui convallis bibendum. Curabitur id consectetur turpis. Etiam velit ante, feugiat vehicula accumsan eu, cursus at ipsum. Nunc ultrices felis id ante condimentum scelerisque. In posuere ipsum ut diam luctus, a eleifend leo imperdiet. In in mollis leo, a gravida felis. Vestibulum vel egestas nunc. Pellentesque nec vulputate mi. Mauris nunc lacus, ullamcorper sed finibus vel, dignissim eu felis. Nullam odio nisl, convallis eget diam vel, porta semper nunc. Integer eget sem tincidunt, dictum magna in, fringilla ex. Duis faucibus suscipit dolor at euismod."
+  bio: "Hello! My name is Nieves and I have a degree in Computer Engineering and a master's degree specialized in Software Engineering. I possess analytical, self-taught learning and problem solving skills. I have learned different programming languages and technologies for software and hardware development, in addition to conceiving and designing low-level systems. My TFG connected hardware and software concepts and I discovered my passion for web development. \n I am looking to continue training and progressing in the field of software development with best practice principles and collaborating with other professionals in the industry.",
+  skills: ["JavaScript", "HTML", "CSS", "React","Java", "TypeScript","Git","MUI", "Capacitor", "AntD","SQL", "Node", "MongoDB", "Express" ]
 }
 
 export const SOCIAL = [

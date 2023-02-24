@@ -2,6 +2,8 @@ import "./About.css"
 import SocialLinks from "../SocialLinks"
 import ImageStatus from "../ImageStatus/ImageStatus"
 import { IoLocationSharp } from "react-icons/io5"
+import { INFO } from '../../../config'
+import Skills from "../Skills/Skills"
 
 export default function About({ title, position, photo, bio, location }) {
   return (
@@ -9,7 +11,6 @@ export default function About({ title, position, photo, bio, location }) {
       <h2>About me</h2>
       <div className="home">
         <div className="text">
-          <h3>{title}</h3>
           <div className="subtitle">
             <p className="subtitle-job">{position}</p>
             <p className="subtitle-location">
@@ -27,6 +28,7 @@ export default function About({ title, position, photo, bio, location }) {
       </div>
       <section>
         <h3> Skills </h3>
+        <Skills skills={INFO.skills} size='3em'/>
       </section>
     </section>
   )

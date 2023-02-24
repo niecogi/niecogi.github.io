@@ -6,7 +6,6 @@ export default function Menu({ icon }) {
   return (
     <nav>
       <div className="name">
-        <h2 className="title"> {icon ? <FiHeart/> : null } </h2>
 
       </div>
 

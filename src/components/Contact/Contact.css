@@ -16,7 +16,7 @@ input[type=text], select, textarea {
   }
   
   button[type=submit] {
-    background-color: var(--color-button);
+    background-color: var(--color-button-primary);
     color: var(--color-button-text);
     padding: 12px 20px;
     border: none;

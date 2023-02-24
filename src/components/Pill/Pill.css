@@ -7,4 +7,10 @@
     align-items: center;
     gap: 4px;
     font-weight: bold;
+    background-color: var(--color-button-secondary);
+    color:var(color-button-text-secondary);
+  }
+
+  .btn-pill:hover {
+    background-color: var(--color-button-tertiary)
   }
