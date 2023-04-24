@@ -6,8 +6,9 @@
   place-items: center;
 }
 
+
 .text {
-  order: 2;
+  order: 1;
   display: block;
   justify-content: space-between;
   text-align: left;
@@ -36,7 +37,7 @@
 }
 
 .photo {
-  order: 1;
+  order: 2;
   width: 200px;
   height: 200px;
   max-width: 200px;

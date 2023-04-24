@@ -9,11 +9,12 @@
   position: relative;
 }
 
-.card-wrapper h3 {
+.card-wrapper h4 {
   font-weight: var(--bold-weight-heavier);
+  font-size: 2rem;
 }
 
-.card-wrapper  h3:hover {
+.card-wrapper  h4:hover {
 	color: var(--color-card-text-hover);
 	text-decoration-line: underline;
 	cursor: pointer;
@@ -23,12 +24,12 @@
   display: flex;
   flex-direction: column;
   text-decoration: none;
-  padding: 0.5rem 1.5rem;
+  padding: 0.2rem 1.5rem;
   color: #111;
 }
 
 .card-wrapper:hover {
-	transform: scale(1.1);
+	transform: scale(1.05);
 	transition: all 0.3s;
 }
 .card-wrapper p {
@@ -56,11 +57,12 @@
 .card-footer {
   position: absolute;
   bottom: 0;
-  margin-top: 2rem;
+  margin-top: 1.5rem;
   margin-bottom: 1.5rem;
 }
 
 .projects-links {
-  gap: 1rem;
+  display: flex;
+  gap: 0.5rem;
   padding-top: 1rem;
 }

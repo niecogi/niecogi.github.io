@@ -5,6 +5,7 @@ nav {
 	max-width: calc(1024px + 24px * 2);
 	margin-inline-start: auto;
 	margin-inline-end: auto;
+	margin: 1rem;
 }
 
 nav > ol {
@@ -24,10 +25,12 @@ ol > li a {
 	padding: 16px;
 	text-decoration: none;
 	font-size: larger;
+	color:var( --color-text-primary);
+	font-weight: var( --bold-weight-heavier);
 }
 
 ol > li > a:hover {
-	color: #5E63B6;
+	color:var( --color-text-accent);
 }
 
 ul {
@@ -41,6 +44,7 @@ ul > li {
 .name {
 	display: inline-flex;
 	align-items: baseline;
+	align-items: center;
 
 }
 

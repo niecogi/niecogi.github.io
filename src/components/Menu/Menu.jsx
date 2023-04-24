@@ -4,8 +4,9 @@ import "./Menu.css"
 
 export default function Menu({ icon }) {
   return (
-    <nav>
+    <nav className="main-nav">
       <div className="name">
+        <FiHeart size={'2rem'}/>
 
       </div>
 

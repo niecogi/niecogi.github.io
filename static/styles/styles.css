@@ -11,6 +11,7 @@ h2 {
 	display: block;
 	font-size: 3em;
 	margin: 0.83em 0;
+	margin-left: 1rem;
 	color: var(--color-headline);
 	font-weight: var(--bold-weight-heavier);
 }
@@ -18,12 +19,13 @@ h3 {
 	display: block;
 	font-size: 2em;
 	margin: 1em 0;
+	margin-left: 1.5rem;
 	font-weight: bold;
 }
 h4 {
 	display: block;
 	font-size: 1em;
-	margin: 1.33em 0;
+	margin: 0.5em 0;
 	font-weight: bold;
 }
 
@@ -34,12 +36,11 @@ body {
 	padding: 0 10px;
 	word-wrap: break-word;
 	text-rendering: optimizeLegibility;
-	background-color: var(--color-background);
 	color: var(--color-headline);
 	max-width: 1200px;
-
-
-
+	background: url("../../../static/images/stacked-background.svg");
+	background-repeat: repeat-x;
+	background-color: var(--color-background);
   }
 
   a {

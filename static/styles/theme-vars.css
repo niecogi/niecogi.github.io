@@ -15,10 +15,12 @@
   --color-background: #191825;
   --color-headline: #f1f1f1;
   --color-paragraph: #f1f1f1;
+  --color-primary: #865dff;
 
   --color-text-primary: hsl(0, 0%, 95%);
   --color-text-secondary: hsl(249, 100%, 97%);
   --color-text-accent: hsl(247, 100%, 92%);
+  --color-text-stroke: #191825;
 
   --color-button-primary: #865dff;
   --color-button-secondary: #beb1ff;
@@ -32,9 +34,10 @@
   --color-card-heading: #232946;
   --color-card-paragraph: #232946;
   --color-card-text-hover: #865dff;
-  --color-card-icon-stroke: #865dff;
-  --color-card-icon-highlight: #865dff;
+  --color-card-icon-primary: #865dff;
+  --color-card-icon-highlight: #9470ff;
+  --color-card-icon-stroke: #191825;
 
-  --color-icon-stroke: #121629;
-  --color-icon-highlight: #865dff;
+  --color-icon-stroke:#865dff ;
+  --color-icon-highlight: var(--color-primary);
 }

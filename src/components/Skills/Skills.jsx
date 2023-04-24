@@ -1,6 +1,6 @@
 import "./Skills.css"
 import { IoLogoHtml5, IoLogoCss3 } from "react-icons/io"
-import { FaJava, FaGit, FaNodeJs } from "react-icons/fa"
+import { FaJava, FaGit, FaNodeJs, FaAngular } from "react-icons/fa"
 import { IoLogoReact } from "react-icons/io5"
 import {
   SiMaterialui,
@@ -15,7 +15,7 @@ import {
 
 export default function Skills({ skills, size }) {
   const technologies = {
-    JavaScript: <SiJavascript size={size} />,
+    JavaScript: <SiJavascript size={size}/>,
     HTML: <IoLogoHtml5 size={size} />,
     CSS: <IoLogoCss3 size={size} />,
     React: <IoLogoReact size={size} />,
@@ -28,7 +28,8 @@ export default function Skills({ skills, size }) {
     Node: <FaNodeJs size={size} />,
     MongoDB: <SiMongodb size={size} />,
     Express: <SiExpress size={size} />,
-    Capacitor: <SiCapacitor size={size} />
+    Capacitor: <SiCapacitor size={size} />,
+    Angular:  <FaAngular size={size} />
   }
   return (
     <ul className="skills">

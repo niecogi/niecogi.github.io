@@ -18,7 +18,12 @@ import { SITE, INFO, PROJECTS, SOCIAL } from "../../config"
 
   <body>
     <MySiteLayout>
-      <Home name={SITE.author} description={SITE.desc} position={INFO.position} />
+      <Home
+        name={SITE.author}
+        description={SITE.desc}
+        position={INFO.position}
+        cv={INFO.cv}
+      />
       <About
         title={SITE.author}
         photo={INFO.photo}

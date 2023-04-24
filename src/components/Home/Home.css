@@ -35,10 +35,15 @@
 }
 
 .home-wrapper .social {
-  order: 4;
+  order: 5;
   margin-top: 1rem;
 }
 
 .home-wrapper .name{
-  color: var(--color-icon-highlight);
+  color: var(--color-primary);
+}
+
+.home-wrapper button {
+  background-color: var(--color-primary);
+  order: 4;
 }

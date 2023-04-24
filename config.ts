@@ -6,10 +6,15 @@ export const SITE = {
 
 export const INFO = {
   photo: "../static/images/profile.jpeg",
+  cv: "dfg",
   position: "Junior Software Engineer",
   location: "Valencia, Spain",
-  bio: "Hello! My name is Nieves and I have a degree in Computer Engineering and a master's degree specialized in Software Engineering. I possess analytical, self-taught learning and problem solving skills. I have learned different programming languages and technologies for software and hardware development, in addition to conceiving and designing low-level systems. My TFG connected hardware and software concepts and I discovered my passion for web development. \n I am looking to continue training and progressing in the field of software development with best practice principles and collaborating with other professionals in the industry.",
-  skills: ["JavaScript", "HTML", "CSS", "React","Java", "TypeScript","Git","MUI", "Capacitor", "AntD","SQL", "Node", "MongoDB", "Express" ]
+  bio: {
+    presentation: 'I\'m Nieves, a Computer Engineering graduate with a master\'s in Software Engineering. ',
+    description: 'I possess analytical, self-taught learning and problem solving skills. I have learned different programming languages and technologies for software and hardware development, in addition to conceiving and designing low-level systems. My TFG sparked my interest in web development,',
+    goals: ' I am looking to continue training and progressing in the field of software development with best practice principles and collaborating with other professionals in the industry.'
+  },
+  skills: ["JavaScript", "HTML", "CSS", "React","Angular","TypeScript", "Java","Git","MUI", "Capacitor", "AntD","SQL", "Node", "MongoDB", "Express" ]
 }
 
 export const SOCIAL = [

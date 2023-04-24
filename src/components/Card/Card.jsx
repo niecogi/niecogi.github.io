@@ -8,17 +8,16 @@ export default function Card(props) {
   return (
     <li className="card-wrapper">
       <div className="card-header">
-        <h3>{title}</h3>
+        <h4>{title}</h4>
         <div className="projects-links">
           {hrefGit ? (
             <a href={hrefGit} target="_blank">
-              {" "}
-              <FiGithub size="1.4rem" />{" "}
+              <FiGithub size="1.4rem" />
             </a>
           ) : null}
           {href ? (
             <a href={href} target="_blank">
-              <FiExternalLink size="1.4rem" />{" "}
+              <FiExternalLink size="1.4rem" />
             </a>
           ) : null}
         </div>

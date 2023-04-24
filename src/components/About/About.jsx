@@ -17,7 +17,10 @@ export default function About({ title, position, photo, bio, location }) {
               <IoLocationSharp /> {location}
             </p>
           </div>
-          <p className="description">{bio}</p>
+
+          <p className="description">{bio.presentation}</p>
+          <p className="description">{bio.description}</p>
+          <p className="description">{bio.goals}</p>
           <SocialLinks
             github="https://github.com/niecogi"
             linkedin="https://www.linkedin.com/in/nieves-codoner-gil/"
