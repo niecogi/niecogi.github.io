@@ -3,5 +3,5 @@ import react from '@astrojs/react';
 
 export default defineConfig({
   integrations: [react()],
-  site: 'https://niecogi.github.io',
+  site: 'https://nieves.codes',
 });
