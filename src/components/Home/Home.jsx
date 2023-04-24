@@ -1,4 +1,4 @@
-import { FiTerminal } from "react-icons/fi";
+import { FiTerminal } from "react-icons/fi/index.js";
 import { SOCIAL } from "../../../config";
 import SocialLinks from "../SocialLinks";
 import "./Home.css";

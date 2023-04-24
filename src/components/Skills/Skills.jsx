@@ -1,9 +1,9 @@
 import "./Skills.css"
-import { IoLogoHtml5, IoLogoCss3 } from "react-icons/io"
-import { FaJava, FaGit, FaNodeJs, FaAngular } from "react-icons/fa"
-import { IoLogoReact } from "react-icons/io5"
+import { IoLogoHtml5, IoLogoCss3 } from "react-icons/io/index.js"
+import { FaJava, FaGit, FaNodeJs, FaAngular } from "react-icons/fa/index.js"
+import { IoLogoReact } from "react-icons/io5/index.js"
 import {
-  SiMaterialui,
+  SiMaterialdesign,
   SiAntdesign,
   SiTypescript,
   SiMysql,
@@ -11,7 +11,7 @@ import {
   SiExpress,
   SiCapacitor,
   SiJavascript
-} from "react-icons/si"
+} from "react-icons/si/index.js"
 
 export default function Skills({ skills, size }) {
   const technologies = {
@@ -19,7 +19,7 @@ export default function Skills({ skills, size }) {
     HTML: <IoLogoHtml5 size={size} />,
     CSS: <IoLogoCss3 size={size} />,
     React: <IoLogoReact size={size} />,
-    MUI: <SiMaterialui size={size} />,
+    MUI: <SiMaterialdesign size={size} />,
     AntD: <SiAntdesign size={size} />,
     Java: <FaJava size={size} />,
     Git: <FaGit size={size} />,

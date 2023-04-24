@@ -1,5 +1,5 @@
 import React, { Fragment } from "react"
-import { FiHeart } from "react-icons/fi"
+import { FiHeart } from "react-icons/fi/index.js"
 import "./Menu.css"
 
 export default function Menu({ icon }) {

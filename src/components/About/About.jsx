@@ -1,7 +1,7 @@
 import "./About.css"
 import SocialLinks from "../SocialLinks"
 import ImageStatus from "../ImageStatus/ImageStatus"
-import { IoLocationSharp } from "react-icons/io5"
+import { IoLocationSharp } from "react-icons/io5/index.js"
 import { INFO } from '../../../config'
 import Skills from "../Skills/Skills"
 

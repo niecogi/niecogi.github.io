@@ -1,6 +1,6 @@
 import React from "react"
 import Technologies from "../Technologies"
-import { FiExternalLink, FiGithub } from "react-icons/fi"
+import { FiExternalLink, FiGithub } from "react-icons/fi/index.js"
 import "./Card.css"
 
 export default function Card(props) {
