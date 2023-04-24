@@ -1,4 +1,4 @@
-import './Technologies.css'
+import './technologies.css'
 import Pill from '../Pill'
 
 export default function Technologies({ technologies }) {
