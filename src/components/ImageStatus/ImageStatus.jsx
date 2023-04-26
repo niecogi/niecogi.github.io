@@ -1,4 +1,4 @@
-import photo from '../../../static/images/profile.jpeg'
+import photo from '../../../public/static/images/profile.jpeg'
 
 import './ImageStatus.css'
 
