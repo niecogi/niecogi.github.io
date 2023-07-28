@@ -2,8 +2,15 @@
   --opacity: 1;
   --border: #dbdbdb;
   --border-radius: 6px;
+}
+
+:root {
   --bold-weight-heavier: 700;
   --bold-weight-normal: 400;
+  --small-font: 12px;
+  --medium-font: 16px;
+  --large-font: 20px;
+  --extra-large-font: 24px;
 }
 
 :root {
@@ -40,4 +47,10 @@
 
   --color-icon-stroke:#865dff ;
   --color-icon-highlight: var(--color-primary);
+
+  --color-work-background: #232946;
+
+
+  --color-1:  #55d3bb;
+  --color-2:  #54d37a;
 }

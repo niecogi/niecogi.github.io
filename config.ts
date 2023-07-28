@@ -1,7 +1,7 @@
 export const SITE = {
+  title: "Portfolio NievesCodes",
   author: "Nieves",
   desc: "UPV alumni with Degree and Master's in Computer Engineering. I consider myself to be hard working, willing to adapt and in general with a great passion for learning and keep improving as a Software Developer.",
-  title: "Portfolio NievesCodes"
 }
 
 export const INFO = {
@@ -10,11 +10,30 @@ export const INFO = {
   position: "Junior Software Engineer",
   location: "Valencia, Spain",
   bio: {
-    presentation: 'I\'m Nieves, a Computer Engineering graduate with a master\'s in Software Engineering. ',
-    description: 'I possess analytical, self-taught learning and problem solving skills. I have learned different programming languages and technologies for software and hardware development, in addition to conceiving and designing low-level systems. My TFG sparked my interest in web development,',
-    goals: ' I am looking to continue training and progressing in the field of software development with best practice principles and collaborating with other professionals in the industry.'
+    presentation:
+      "I'm Nieves, a Computer Engineering graduate with a master's in Software Engineering. ",
+    description:
+      "I possess analytical, self-taught learning and problem solving skills. I have learned different programming languages and technologies for software and hardware development, in addition to conceiving and designing low-level systems. My TFG sparked my interest in web development,",
+    goals:
+      " I am looking to continue training and progressing in the field of software development with best practice principles and collaborating with other professionals in the industry."
   },
-  skills: ["JavaScript", "HTML", "CSS", "React","Angular","TypeScript", "Java","Git","MUI", "Capacitor", "AntD","SQL", "Node", "MongoDB", "Express" ]
+  skills: [
+    "JavaScript",
+    "HTML",
+    "CSS",
+    "React",
+    "Angular",
+    "TypeScript",
+    "Java",
+    "Git",
+    "MUI",
+    "Capacitor",
+    "AntD",
+    "SQL",
+    "Node",
+    "MongoDB",
+    "Express"
+  ]
 }
 
 export const SOCIAL = [
@@ -29,6 +48,54 @@ export const SOCIAL = [
   {
     name: "linkedin",
     href: "nieves.codes"
+  }
+]
+
+export const EXPERIENCE = [
+  {
+    title: "Empresa 1",
+    hrefCompany: "https://www.wearecactus.com/es/",
+    job:"Frontend Developer",
+    startDate: "11/07/1998",
+    endDate: "01/07/2023",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam feugiat mattis nulla. Cras et ipsum erat. Phasellus sodales maximus diam vel aliquam. Mauris interdum tellus quis neque venenatis, in congue orci varius.",
+    technologies: ["JavaScript", "React", "MUI"],
+    projectLinks: [
+      {
+        href: 'http://spim.webs.upv.es/',
+        label: 'project.js'
+      }
+    ]
+  },
+  {
+    title: "Empresa 2",
+    hrefCompany: "",
+    job:"Backend Developer",
+    startDate: "11/07/1998",
+    endDate: "01/07/2023",
+    description: "Empresa espectacular",
+    technologies: ["JavaScript", "React", "MUI"],
+    projectLinks: [
+      {
+        href: 'http://spim.webs.upv.es/',
+        label: 'project.js'
+      }
+    ]
+  },
+  {
+    title: "Empresa 3",
+    hrefCompany: "",
+    job:"Example 3",
+    startDate: "11/07/1998",
+    endDate: "01/07/2023",
+    description: "WUAOH",
+    technologies: ["JavaScript", "React", "MUI"],
+    projectLinks: [
+      {
+        href: 'http://spim.webs.upv.es/',
+        label: 'project.js'
+      }
+    ]
   }
 ]
 

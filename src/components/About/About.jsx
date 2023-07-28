@@ -2,8 +2,9 @@ import "./About.css"
 import SocialLinks from "../SocialLinks"
 import ImageStatus from "../ImageStatus/ImageStatus"
 import { IoLocationSharp } from "react-icons/io5/index.js"
-import { INFO } from '../../../config'
+import { EXPERIENCE, INFO } from "../../../config"
 import Skills from "../Skills/Skills"
+import Experiencie from "../Experiencie/Experiencie"
 
 export default function About({ title, position, photo, bio, location }) {
   return (
@@ -30,8 +31,12 @@ export default function About({ title, position, photo, bio, location }) {
         <ImageStatus className="photo" photo={photo} status={"💻"} />
       </div>
       <section>
+        <h3>Experience</h3>
+        <Experiencie experience={EXPERIENCE}></Experiencie>
+      </section>
+      <section>
         <h3> Skills </h3>
-        <Skills skills={INFO.skills} size='3em'/>
+        <Skills skills={INFO.skills} size="3em" />
       </section>
     </section>
   )
